@@ -11,36 +11,40 @@
 
   <body>
     <header>
-      <h1>Aloha Apparel Co.</h1>
-      <img src="images/aloha-logo.svg" alt="Aloha Apparel">
-      <img src="images/cart-icon.svg" alt="Shopping Cart">
-      <nav>
+      <div class="header-logo">
+        <h1 class="screen-reader">Aloha Apparel Co.</h1>
+        <img class="logo" src="images/aloha-logo.svg" alt="Aloha Apparel">
+        <img class="cart" src="images/cart-icon.svg" alt="Shopping Cart">
+      </div>
+      <nav class="header-nav">
         <ul>
-          <li><a href="#about">ABOUT</a></li>
-          <li><a href="#shop">SHOP</a></li>
-          <li><a href="#products">FEATURED</a></li>
-          <li><a href="#updates">UPDATES</a></li>
+          <li class="nav-item capitalize"><a href="#about">About</a></li>
+          <li class="nav-item capitalize"><a href="#shop">Shop</a></li>
+          <li class="nav-item capitalize"><a href="#products">Featured</a></li>
+          <li class="nav-item capitalize"><a href="#updates">Updates</a></li>
         </ul>
       </nav>
     </header>
 
     <section class="hero">
-      <p class="collection">New Collecion</p>
-      <p class="season">Spring/Summer<br>2016</p>
+      <div class="hero-text container">
+        <p class="collection">New Collection</p>
+        <p class="season">Spring/Summer 2016</p>
+      </div>
     </section>
 
-    <section class="about" id="about">
+    <section class="about container" id="about">
       <h2>Hand-Crafted Styles</h2>
       <p>Aloha Apparel Co. sells only the finest ready-to-travel clothing. Browse our current selection of products or sign-up for updates below</p>
     </section>
 
-    <section class="shop" id="shop">
-      <div class="men"><h3>MEN'S</h3></div>
-      <div class="trend"><h3>TREND'S</h3></div>
-      <div class="glasses"><h3>GLASSES</h3></div>
-      <div class="sale"><h3>SALE</h3></div>
-      <div class="bags"><h3>BAGS</h3></div>
-      <div class="women"><h3>WOMEN'S</h3></div>
+    <section class="shop capitalize" id="shop">
+      <div ><h3 class="men capitalize">Men's</h3></div>
+      <div class="trend capitalize"><h3>Trend's</h3></div>
+      <div class="glasses capitalize"><h3>Glasses</h3></div>
+      <div class="sale capitalize"><h3>Sale</h3></div>
+      <div class="bags capitalize"><h3>Bags</h3></div>
+      <div class="women capitalize"><h3>Women's</h3></div>
     </section>
 
     <section class="products" id="products">
@@ -48,25 +52,25 @@
       <ul>
         <li>
           <img src="images/checked-stretch-dress.jpg" alt="Checkered Red Dress">
-          <p>DRESSES</p>
+          <p class="capitalize">Dresses</p>
           <h4>Checked Stretch Dress</h4>
           <p>$129.00</p>
         </li>
         <li>
           <img src="images/blue-hipster-backpack.jpg" alt="Blue Hipster Backpack">
-          <p>BAGS</p>
+          <p class="capitalize">Bags</p>
           <h4>Blue Hipster Backpack</h4>
           <p>$69.00</p>
         </li>
         <li>
           <img src="images/demin-overall-shorts.jpg" alt="Denim Overall Shorts">
-          <p>DENIM</p>
+          <p class="capitalize">Denim</p>
           <h4>Denim Overall Shorts</h4>
           <p>$89.00</p>
         </li>
         <li>
           <img src="images/pink-dotted-dress.jpg" alt="Pink Dotted Dress">
-          <p>DRESSES</p>
+          <p class="capitalize">Dresses</p>
           <h4>Pink Dotted Dress</h4>
         </li>
       </ul>
@@ -82,20 +86,22 @@
     </section>
 
     <footer>
-      <p>&copy; 2016 Aloha Apparel Co.</p>
-      <p>Powered by HTML and CSS.</p>
-      <p>604-604-6040. <a href="info@alohaapparel.com">info@alohaapparel.com</a></p>
-      <p>1490 W Broadway</p>
-      <p>Vancouver, BC, Canada</p>
-        <ul>
-          <li> <a class="socialmedia" href="https://facebook.com"><i class="logo fa fa-facebook"></i><p class="mobile-hide">Facebook</p></a></li>
-          <li> <a class="socialmedia" href="https://twitter.com"><i class="logo fa fa-twitter"></i> <p class="mobile-hide">Twitter</p></a></li>
-          <li> <a class="socialmedia" href="https;//instagram.com"><i class="logo fa fa-instagram"></i> <p class="mobile-hide">Instagram</p></a></li>
-          <li> <a class="socialmedia" href="https://pinterest.com"><i class="logo fa fa-pinterest"></i> <p class="mobile-hide" >Pinterest</p></a></li>
-          <li> <a class="socialmedia" href="https://plus.google.com"><i class="logo fa fa-google-plus"></i> <p class="mobile-hide">Google+</p></a></li>
-        </ul>
+      <div class="container">
+        <p>&copy; 2016 Aloha Apparel Co.</p>
+        <p>Powered by HTML and CSS.</p>
+        <p>604-604-6040. <a href="mailto:info@alohaapparel.com">info@alohaapparel.com</a></p>
+        <p>1490 W Broadway</p>
+        <p>Vancouver, BC, Canada</p>
+          <ul class="social-media-links">
+            <li> <a class="socialmedia" href="https://facebook.com"><i class="logo fa fa-facebook"></i><p class="mobile-hide">Facebook</p></a></li>
+            <li> <a class="socialmedia" href="https://twitter.com"><i class="logo fa fa-twitter"></i> <p class="mobile-hide">Twitter</p></a></li>
+            <li> <a class="socialmedia" href="https;//instagram.com"><i class="logo fa fa-instagram"></i> <p class="mobile-hide">Instagram</p></a></li>
+            <li> <a class="socialmedia" href="https://pinterest.com"><i class="logo fa fa-pinterest"></i> <p class="mobile-hide" >Pinterest</p></a></li>
+            <li> <a class="socialmedia" href="https://plus.google.com"><i class="logo fa fa-google-plus"></i> <p class="mobile-hide">Google+</p></a></li>
+          </ul>
+        </div>
     </footer>
-    
+
   </body>
 
 </html>

@@ -1,0 +1,74 @@
+* {
+  box-sizing: border-box;
+  font-size: 14px;
+}
+
+.capitalize {
+  text-transform: uppercase;
+}
+
+.header-logo {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo, .cart {
+  padding: 10px 5px;
+  max-height: 75px;
+}
+ 
+nav { 
+  border-top: 1px solid black;
+  padding: 15px 0;
+}
+.header-nav ul {
+  display: flex;
+  justify-content: space-around;
+}
+
+.nav-item a {
+  text-decoration: none;
+}
+
+.hero {
+  background: url("../images/banner-girl.png"), url("../images/flower-bkgd.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain, cover;
+  height: 60vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.hero-text p {
+  color: #fff;
+  font-size: 3em;
+  margin: 75px 0;
+}
+
+.mobile-hide {
+  display: none;
+}
+
+.social-media-links {
+  display: flex;
+  justify-content: center;
+}
+
+
+/* A class to hide content only applicable to screen readers */
+.screen-reader 
+{position:absolute;
+left:-10000px;
+top:auto;
+width:1px;
+height:1px;
+overflow:hidden;}
+
+.container { 
+  max-width: 1240px;
+  margin: 0 auto;
+  text-align: center;
+}
