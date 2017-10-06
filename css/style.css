@@ -386,7 +386,13 @@ overflow:hidden;}
   }
 
   .nav-item {
-    padding: 0px 15px;
+    padding: 0px 13px;
+  }
+  .nav-item:first-child {
+    padding-left: 0px;
+  }
+  .nav-item:last-child {
+    padding-right: 0px;
   }
 
   .hero {
@@ -437,7 +443,7 @@ overflow:hidden;}
   /* For some reason I need to input these styles again */
 
   .shop-item {
-    height: 30vh;
+    height: 35vh;
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center; 
