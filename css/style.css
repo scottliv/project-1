@@ -127,7 +127,7 @@ html, body {
 }
 
 h2 {
-  font-family: 'playfair_display';
+  font-family: 'playfair_display',  cursive, serif;
   font-style: italic;
   font-size: 2.25rem;
   margin: 40px 0;
@@ -209,35 +209,47 @@ nav {
 }
 
 .men {
-  background: url("../images/mens-category.jpg");
+  background: 
+    linear-gradient(30deg, rgba(39, 39, 39, 0.3), rgba(32, 32, 32, 0.3)),
+    url("../images/mens-category.jpg");
   flex: 0 1 100%;
   
 }
 
 .trend {
-  background: url("../images/trends-category.jpg");
+  background: 
+    linear-gradient(30deg, rgba(41, 41, 41, 0.3), rgba(39, 39, 39, 0.3)),
+    url("../images/trends-category.jpg");
   flex: 0 1 49%;
   
 }
 
 .glasses {
-  background: url("../images/glasses-category.jpg");
+  background: 
+    linear-gradient(30deg, rgba(39, 39, 39, 0.3), rgba(39, 39, 39, 0.3)),
+    url("../images/glasses-category.jpg");
   flex: 0 1 49%;
 }
 
 .sale {
-  background: url("../images/glasses-category.jpg");
+  background: 
+    linear-gradient(30deg, rgba(39, 39, 39, 0.3), rgba(39, 39, 39, 0.3)),
+    url("../images/glasses-category.jpg");
   flex: 0 1 49%;
   
 }
 
 .bags {
-  background: url("../images/bags-category.jpg");
+  background: 
+    linear-gradient(30deg, rgba(39, 39, 39, 0.3), rgba(39, 39, 39, 0.3)),
+    url("../images/bags-category.jpg");
   flex: 0 1 49%;
 }
 
 .women {
-  background: url("../images/womens-category.jpg");
+  background: 
+    linear-gradient(30deg, rgba(39, 39, 39, 0.3), rgba(39, 39, 39, 0.3)),
+    url("../images/womens-category.jpg");
   flex: 0 1 100%;
 }
 
