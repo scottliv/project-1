@@ -175,7 +175,7 @@ nav {
 
 .hero {
   background: 
-    linear-gradient(30deg, rgba(80, 80, 80, 0.4), rgba(73, 73, 73, 0.4)),
+    linear-gradient(30deg, rgba(26, 25, 25, 0.274), rgba(29, 29, 29, 0.24)),
     url("../images/banner-girl.png"), 
     url("../images/flower-bkgd.jpg");
   background-position: center;
