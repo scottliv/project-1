@@ -445,16 +445,8 @@ overflow:hidden;}
 
    .men {
     width: 98.5%;
-  /* flex: 2 1 48%;
-  max-width: 50%; */
-  /* margin-right: 8px; */
-  
   }
 
-  .trend, .sale, .bags {
-    /* flex: 1 1 24%; */
-    /* margin-right: 8px; */
-  }
 
   .shop {
     justify-content: space-between;
