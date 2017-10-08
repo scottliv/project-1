@@ -414,52 +414,37 @@ overflow:hidden;}
   /* SHOP */
 
   .men {
-  background: url("../images/mens-category.jpg");
   flex: 2 1 48%;
-  margin-right: 5px;
+  max-width: 50%;
+  margin-right: 8px;
   
   }
 
-  .trend {
-    background: url("../images/trends-category.jpg");
-  }
 
   .glasses {
-    background: url("../images/glasses-category.jpg");
     flex: 1 1 23%;
   }
 
-  .sale {
-    background: url("../images/glasses-category.jpg");
-  }
 
-  .bags {
-    background: url("../images/bags-category.jpg");
-    
-  }
 
   .women {
-    background: url("../images/womens-category.jpg");
+    max-width: 50%;
     flex: 2 1 48%;
   }
 
   .trend, .sale, .bags {
     flex: 1 1 24%;
-    margin-right: 5px;
+    margin-right: 8px;
   }
 
   .shop {
     justify-content: space-between;
   }
 
-  /* For some reason I need to input these styles again */
 
   .shop-item {
     height: 35vh;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center; 
-    margin-bottom: 5px;
+    margin-bottom: 8px;
   }
 
   /* Footer */
