@@ -205,7 +205,6 @@ nav {
   display: flex;
   justify-content: space-between;
   flex-flow: wrap;
-  
 }
 
 .img-container-big {
@@ -293,8 +292,10 @@ nav {
   background-position: bottom;
   min-height: 300px;
   display: flex;
+  flex-direction: column;
   align-items: center;
-  /* justify-content: center; */
+  justify-content: center;
+  flex-wrap: wrap;
 } 
 
 form {
@@ -304,7 +305,6 @@ form {
   border-radius: 50px;
   justify-content: center;
   background-color: #fff;
-  max-width: 80%;
 }
 
 input {
@@ -377,6 +377,11 @@ overflow:hidden;}
   padding: 5px;
 }
 
+.form-container {
+  max-width: 700px;
+  margin: 0 auto;
+}
+
 /* Tablet styling */
 
 @media all and (min-width: 600px) {
@@ -430,13 +435,11 @@ overflow:hidden;}
   .img-container-big {
     width: 50%;
     padding-bottom: 25%;
-    position: relative;
   }
 
   .img-container {
     width: 25%;
     padding-bottom: 25%;
-    position: relative;
   }
 
   .shop-item {
@@ -447,13 +450,8 @@ overflow:hidden;}
    width: 100%;
   }
 
-  .trends, .glasses {
-    margin-bottom: 2%;
-  }
-
    .men {
     width: 98.5%;
-    margin-bottom: 1%;
   }
 
   /* Footer */
