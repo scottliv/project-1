@@ -209,11 +209,15 @@ nav {
 }
 
 .img-container-big {
-  width: 100%
+  width: 100%;
+  padding-bottom: 50%;
+  position: relative;
 }
 
 .img-container {
-  width: 50%
+  width: 50%;
+  padding-bottom: 50%;
+  position: relative;
 }
 
 .trend, .sale {
@@ -224,7 +228,7 @@ nav {
   background: 
     linear-gradient(30deg, rgba(39, 39, 39, 0.3), rgba(32, 32, 32, 0.3)),
     url("../images/mens-category.jpg");
-  /* flex: 0 1 100%; */
+    margin-bottom: 1%;
   
 }
 
@@ -232,48 +236,46 @@ nav {
   background: 
     linear-gradient(30deg, rgba(41, 41, 41, 0.3), rgba(39, 39, 39, 0.3)),
     url("../images/trends-category.jpg");
-  /* flex: 0 1 49%; */
-  
 }
 
 .glasses {
   background: 
     linear-gradient(30deg, rgba(39, 39, 39, 0.3), rgba(39, 39, 39, 0.3)),
     url("../images/glasses-category.jpg");
-  /* flex: 0 1 49%; */
 }
 
 .sale {
   background: 
     linear-gradient(30deg, rgba(39, 39, 39, 0.3), rgba(39, 39, 39, 0.3)),
-    url("../images/glasses-category.jpg");
-  /* flex: 0 1 49%; */
-  
+    url("../images/sale-category.jpg");
 }
 
 .bags {
   background: 
     linear-gradient(30deg, rgba(39, 39, 39, 0.3), rgba(39, 39, 39, 0.3)),
     url("../images/bags-category.jpg");
-  /* flex: 0 1 49%; */
 }
 
 .women {
   background: 
     linear-gradient(30deg, rgba(39, 39, 39, 0.3), rgba(39, 39, 39, 0.3)),
     url("../images/womens-category.jpg");
-  /* flex: 0 1 100%; */
+    margin-bottom: 1%;
+}
+
+.trend, .glasses, .sale, .bags {
+  margin-bottom: 2%;
 }
 
 .shop-item {
-  height: 30vh;
+  position: absolute;
+  top: 0; bottom: 0; left: 0; right: 0;
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center; 
   display: flex;
   align-items: center;
-  justify-content: center; 
-  margin-bottom: 2%; 
+  justify-content: center;  
 }
 
 .shop-item h3 {
@@ -427,15 +429,17 @@ overflow:hidden;}
 
   .img-container-big {
     width: 50%;
+    padding-bottom: 25%;
+    position: relative;
   }
 
   .img-container {
-    width: 25%
+    width: 25%;
+    padding-bottom: 25%;
+    position: relative;
   }
 
   .shop-item {
-    height: 30vh;
-    margin-bottom: 1%;
     width: 97%;
   }
 
@@ -443,17 +447,14 @@ overflow:hidden;}
    width: 100%;
   }
 
+  .trends, .glasses {
+    margin-bottom: 2%;
+  }
+
    .men {
     width: 98.5%;
+    margin-bottom: 1%;
   }
-
-
-  .shop {
-    justify-content: space-between;
-  }
-
-
-
 
   /* Footer */
 
