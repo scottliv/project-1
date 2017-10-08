@@ -208,11 +208,23 @@ nav {
   
 }
 
+.img-container-big {
+  width: 100%
+}
+
+.img-container {
+  width: 50%
+}
+
+.trend, .sale {
+  max-width: 97%;
+}
+
 .men {
   background: 
     linear-gradient(30deg, rgba(39, 39, 39, 0.3), rgba(32, 32, 32, 0.3)),
     url("../images/mens-category.jpg");
-  flex: 0 1 100%;
+  /* flex: 0 1 100%; */
   
 }
 
@@ -220,7 +232,7 @@ nav {
   background: 
     linear-gradient(30deg, rgba(41, 41, 41, 0.3), rgba(39, 39, 39, 0.3)),
     url("../images/trends-category.jpg");
-  flex: 0 1 49%;
+  /* flex: 0 1 49%; */
   
 }
 
@@ -228,14 +240,14 @@ nav {
   background: 
     linear-gradient(30deg, rgba(39, 39, 39, 0.3), rgba(39, 39, 39, 0.3)),
     url("../images/glasses-category.jpg");
-  flex: 0 1 49%;
+  /* flex: 0 1 49%; */
 }
 
 .sale {
   background: 
     linear-gradient(30deg, rgba(39, 39, 39, 0.3), rgba(39, 39, 39, 0.3)),
     url("../images/glasses-category.jpg");
-  flex: 0 1 49%;
+  /* flex: 0 1 49%; */
   
 }
 
@@ -243,14 +255,14 @@ nav {
   background: 
     linear-gradient(30deg, rgba(39, 39, 39, 0.3), rgba(39, 39, 39, 0.3)),
     url("../images/bags-category.jpg");
-  flex: 0 1 49%;
+  /* flex: 0 1 49%; */
 }
 
 .women {
   background: 
     linear-gradient(30deg, rgba(39, 39, 39, 0.3), rgba(39, 39, 39, 0.3)),
     url("../images/womens-category.jpg");
-  flex: 0 1 100%;
+  /* flex: 0 1 100%; */
 }
 
 .shop-item {
@@ -413,28 +425,35 @@ overflow:hidden;}
 
   /* SHOP */
 
-  .men {
-  flex: 2 1 48%;
-  max-width: 50%;
-  margin-right: 8px;
+  .img-container-big {
+    width: 50%;
+  }
+
+  .img-container {
+    width: 25%
+  }
+
+  .shop-item {
+    height: 30vh;
+    margin-bottom: 1%;
+    width: 97%;
+  }
+
+  .women, .glasses {
+   width: 100%;
+  }
+
+   .men {
+    width: 98.5%;
+  /* flex: 2 1 48%;
+  max-width: 50%; */
+  /* margin-right: 8px; */
   
   }
 
-
-  .glasses {
-    flex: 1 1 23%;
-  }
-
-
-
-  .women {
-    max-width: 50%;
-    flex: 2 1 48%;
-  }
-
   .trend, .sale, .bags {
-    flex: 1 1 24%;
-    margin-right: 8px;
+    /* flex: 1 1 24%; */
+    /* margin-right: 8px; */
   }
 
   .shop {
@@ -442,10 +461,7 @@ overflow:hidden;}
   }
 
 
-  .shop-item {
-    height: 35vh;
-    margin-bottom: 8px;
-  }
+
 
   /* Footer */
 
