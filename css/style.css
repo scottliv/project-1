@@ -131,6 +131,7 @@ h2 {
   font-style: italic;
   font-size: 2.25rem;
   margin: 40px 0;
+  padding-top: 5px;
 }
 
 .bold {
@@ -147,6 +148,11 @@ header {
   justify-content: space-between;
   align-items: center;
   flex-flow: wrap;
+  position: fixed;
+  top: 0;
+  z-index: 1;
+  background-color: #fff;
+  width: 100%;
 }
 
 .logo, .cart {
@@ -179,12 +185,14 @@ nav {
     url("../images/banner-girl.png"), 
     url("../images/flower-bkgd.jpg");
   background-position: center;
+  background-position-y: center, 15px, center;
   background-repeat: no-repeat;
   background-size: cover, contain, cover;
   height: 60vh;
   display: flex;
   align-items: center;
   justify-content: center;
+  margin-top: 115px; 
 }
 
 .hero-text p {
@@ -198,6 +206,10 @@ nav {
   font-style: normal;
   color: #fff;
   font-size: 3rem;
+}
+
+section.about {
+  margin-bottom: 20px;
 }
 
 .shop {
@@ -298,6 +310,8 @@ nav {
   flex-wrap: wrap;
 } 
 
+
+
 form {
   padding:5px 5px 5px 20px;
   font-size: 1em;
@@ -370,16 +384,17 @@ overflow:hidden;}
 }
 
 .text-container {
-  max-width: 700px;
-  margin: 0 auto;
+  max-width: 500px;
+  margin: 10px auto;
   text-align: center;
-  line-height: 1.75rem;
-  padding: 5px;
+  line-height: 2rem;
+  padding: 30px 20px;
 }
 
 .form-container {
   max-width: 700px;
   margin: 0 auto;
+  padding-bottom: 30px;
 }
 
 /* Tablet styling */
@@ -428,6 +443,8 @@ overflow:hidden;}
 
   .hero {
     background-repeat: no-repeat, no-repeat, repeat;
+    background-position-y: center, 25px, center;
+    margin-top: 80px;
   }
 
   /* SHOP */
@@ -490,4 +507,15 @@ overflow:hidden;}
     margin-right: 40px;
   }
 
+}
+
+/* Desktop Styling */
+@media all and (min-width: 1240px) {
+  
+  .hero {
+    background-position-y: center, 50px, center;
+  }
+  .text-container {
+    max-width: 650px;
+  }
 }
