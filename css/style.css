@@ -287,6 +287,12 @@ section.about {
   display: flex;
   align-items: center;
   justify-content: center;  
+  text-decoration: none;
+  color: #fff;
+}
+
+a.shop-item:hover {
+  color: #f5eac8;
 }
 
 .shop-item h3 {
@@ -366,6 +372,7 @@ footer a {
   display: flex;
   justify-content: center;
 }
+
 
 
 /* A class to hide content only applicable to screen readers */
@@ -509,6 +516,11 @@ overflow:hidden;}
     align-items: center;
     margin-right: 40px;
   }
+
+  i {
+    min-width: 50px;
+  }
+
 
 }
 

@@ -2,8 +2,6 @@
 //Updated to account for fixed header height
 
 // Select all links with hashes
-
-
 $(function () {
     $("a[href*='#']:not([href='#'])").click(function () {
       if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') && location.hostname == this.hostname) {
@@ -18,5 +16,14 @@ $(function () {
         }
       }
     });
+});
+
+
+// Flickity 
+
+$('.main-carousel').flickity({
+  // options
+  cellAlign: 'left',
+  contain: true
 });
 
