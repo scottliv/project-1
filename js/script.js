@@ -1,8 +1,5 @@
 
 $(function () {
-  
-
-  
   //Smooth Scroll from https://css-tricks.com/snippets/jquery/smooth-scrolling/
   //Updated to account for fixed header height
   // Select all links with hashes
@@ -19,10 +16,19 @@ $(function () {
         }
       }
     });
+
     // Flickity 
     checkSize();
+    // An attempt to throttle the checkSize function
+
+    var checkingSize = false;
+
     $(window).resize(function(){
-      checkSize();
+      if (!checkingSize){
+        checkingSize = true;
+        checkSize();
+        checkingSize = false;
+      }
     });
 
     // Sign up form
@@ -38,10 +44,9 @@ $(function () {
     })
 });
 
-  // Function to the css rule
+  // Function to apply different jQuery depending on screen size.. not strictly necessary in this case, but a fun exercise
     function checkSize() {
       if ($(".mobile-hide").css("display") == "block") {
-        // alert("Not mobile!");
         console.log("resize!")
         $('.main-carousel').flickity({
           cellAlign: 'left',
@@ -54,7 +59,6 @@ $(function () {
       else {
         console.log("mobile!")
         $('.main-carousel').flickity({
-          // options
           accessibility: true,
           cellAlign: 'center',
           contain: true,
@@ -74,6 +78,8 @@ $(function () {
         return false; 
       }
     };
+
+
 
 
 
