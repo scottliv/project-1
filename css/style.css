@@ -253,14 +253,14 @@ section.about {
 
 .img-container-big {
   width: 100%;
-  padding-bottom: 50%;
-  position: relative;
+  /* padding-bottom: 50%;
+  position: relative; */
 }
 
 .img-container {
   width: 50%;
-  padding-bottom: 50%;
-  position: relative;
+  /* padding-bottom: 50%;
+  position: relative; */
 }
 
 .trend, .sale {
@@ -347,8 +347,9 @@ section.about {
 }
 
 .shop-item {
-  position: absolute;
-  top: 0; bottom: 0; left: 0; right: 0;
+  /* position: absolute; */
+  min-height: 50vw;
+  /* top: 0; bottom: 0; left: 0; right: 0; */
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center; 
@@ -598,15 +599,16 @@ overflow:hidden;}
 
   .img-container-big {
     width: 50%;
-    padding-bottom: 25%;
+    /* padding-bottom: 25%; */
   }
 
   .img-container {
     width: 25%;
-    padding-bottom: 25%;
+    /* padding-bottom: 25%; */
   }
 
   .shop-item {
+    min-height: 25vw;
     width: 97%;
   }
 
