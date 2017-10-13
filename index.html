@@ -6,11 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Aloha Apparel Co.</title>
     <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/flickity.css">
     <script src="https://use.fontawesome.com/6f705003d2.js"></script>
     <link rel="stylesheet" href="css/style.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-    <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
-    <script src="js/script.js"></script>
   </head>
 
   <body>
@@ -65,47 +63,71 @@
       </div>
     </section>
 
-    <section class="products main-carousel container" id="products">
+    <section class="products" id="products">
       <h2>Most-Loved <span class="bold">Products</span></h2>
-      <ul>
-        <li>
+      <div class="main-carousel">
+        <div class="carousel-cell">
           <img src="images/checked-stretch-dress.jpg" alt="Checkered Red Dress">
-          <p class="capitalize">Dresses</p>
-          <h4>Checked Stretch Dress</h4>
-          <p>$129.00</p>
-        </li>
-        <li>
+          <p class="capitalize product-catagory">Dresses</p>
+          <h4 class="product-name">Checked Stretch Dress</h4>
+          <p class="price">$129.00</p>
+        </div>
+        <div class="carousel-cell">
           <img src="images/blue-hipster-backpack.jpg" alt="Blue Hipster Backpack">
-          <p class="capitalize">Bags</p>
-          <h4>Blue Hipster Backpack</h4>
-          <p>$69.00</p>
-        </li>
-        <li>
+          <p class="capitalize product-catagory">Bags</p>
+          <h4 class="product-name">Blue Hipster Backpack</h4>
+          <p class="price">$69.00</p>
+        </div>
+        <div class="carousel-cell">
           <img src="images/demin-overall-shorts.jpg" alt="Denim Overall Shorts">
-          <p class="capitalize">Denim</p>
-          <h4>Denim Overall Shorts</h4>
-          <p>$89.00</p>
-        </li>
-        <li>
+          <p class="capitalize product-catagory">Denim</p>
+          <h4 class="product-name">Denim Overall Shorts</h4>
+          <p class="price">$89.00</p>
+        </div>
+        <div class="carousel-cell">
           <img src="images/pink-dotted-dress.jpg" alt="Pink Dotted Dress">
-          <p class="capitalize">Dresses</p>
-          <h4>Pink Dotted Dress</h4>
-          <p>$129.00</p>
-        </li>
-      </ul>
+          <p class="capitalize product-catagory">Dresses</p>
+          <h4 class="product-name">Pink Dotted Dress</h4>
+          <p class="price">$129.00</p>
+        </div>
+        <div class="carousel-cell">
+          <img src="images/blue-silk-dress.jpg" alt="Blue Silk Dress">
+          <p class="capitalize product-catagory">Dresses</p>
+          <h4 class="product-name">Blue Silk Dress</h4>
+          <p class="price">$139.00</p>
+        </div>
+        <div class="carousel-cell">
+          <img src="images/cotton-blue-shirt.jpg" alt="Cotton Blue Shirt">
+          <p class="capitalize product-catagory">Shirts</p>
+          <h4 class="product-name">Cotton Blue Shirt</h4>
+          <p class="price">$49.00</p>
+        </div>
+        <div class="carousel-cell">
+          <img src="images/cotton-yellow-tshirt.jpg" alt="Cotton Yellow Shirt">
+          <p class="capitalize product-catagory">Shirts</p>
+          <h4 class="product-name">Cotton Yellow Shirt</h4>
+          <p class="price">$29.00</p>
+        </div>
+        <div class="carousel-cell">
+          <img src="images/stretch-knit-dress.jpg" alt="Stretch Knit Dress">
+          <p class="capitalize product-catagory">Dresses</p>
+          <h4 class="product-name">Stretch Knit Dress</h4>
+          <p class="price">$169.00</p>
+        </div>
+      </div>
     </section>
 
     <section class="updates" id="updates">
       <div class="text-container">
         <h2>Sign-up for <span class="bold">Updates</span></h2>
         <p>Stay updated on our latest product releases, be first to find out about upcoming sales, and get free style tips from our blog. Unsubscribe at any time.</p>
-        </div>
-        <div class="form-container">
-          <form action="submit" method="POST">
-            <input type="email" name="email" placeholder="Your Email" id="subscribe">
-            <button>Subscribe</button>
-          </form>
-        </div>
+      </div>
+      <div class="form-container">
+        <form class="subscribe" action="submit" method="POST">
+          <input type="email" name="email" placeholder="Your Email" id="subscribe">
+          <button class="form-button">Subscribe</button>
+        </form>
+      </div>
     </section>
 
     <footer>
@@ -115,16 +137,18 @@
           <p>604-604-6040. <a href="mailto:info@alohaapparel.com">info@alohaapparel.com</a></p>
           <p class="light-grey">1490 W Broadway<br>Vancouver, BC, Canada</p>
         </div>
-          <ul class="social-media-links">
-            <li> <a class="socialmedia" href="https://facebook.com"><i class="logo fa fa-facebook"></i><p class="mobile-hide">Facebook</p></a></li>
-            <li> <a class="socialmedia" href="https://twitter.com"><i class="logo fa fa-twitter"></i> <p class="mobile-hide">Twitter</p></a></li>
-            <li> <a class="socialmedia" href="https;//instagram.com"><i class="logo fa fa-instagram"></i> <p class="mobile-hide">Instagram</p></a></li>
-            <li> <a class="socialmedia" href="https://pinterest.com"><i class="logo fa fa-pinterest"></i> <p class="mobile-hide" >Pinterest</p></a></li>
-            <li> <a class="socialmedia" href="https://plus.google.com"><i class="logo fa fa-google-plus"></i> <p class="mobile-hide">Google+</p></a></li>
-          </ul>
-        </div>
+        <ul class="social-media-links">
+          <li> <a class="socialmedia" href="https://facebook.com"><i class="logo fa fa-facebook"></i><p class="mobile-hide">Facebook</p></a></li>
+          <li> <a class="socialmedia" href="https://twitter.com"><i class="logo fa fa-twitter"></i> <p class="mobile-hide">Twitter</p></a></li>
+          <li> <a class="socialmedia" href="https;//instagram.com"><i class="logo fa fa-instagram"></i> <p class="mobile-hide">Instagram</p></a></li>
+          <li> <a class="socialmedia" href="https://pinterest.com"><i class="logo fa fa-pinterest"></i> <p class="mobile-hide" >Pinterest</p></a></li>
+          <li> <a class="socialmedia" href="https://plus.google.com"><i class="logo fa fa-google-plus"></i> <p class="mobile-hide">Google+</p></a></li>
+        </ul>
+      </div>
     </footer>
-
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
+    <script src="js/script.js"></script>
   </body>
 
 </html>
