@@ -552,7 +552,7 @@ overflow:hidden;}
   }
 
   .logo {
-    padding-left: 25px;
+    padding-left: 20px;
   }
   
   .header-cart {
@@ -561,7 +561,7 @@ overflow:hidden;}
             order: 3;
   }
   .cart {
-    padding-right: 30px;
+    padding-right: 25px;
   }
   .header-nav{
     -webkit-box-flex: 2;

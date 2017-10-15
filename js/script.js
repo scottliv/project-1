@@ -46,6 +46,7 @@ $(function () {
 
   // Function to apply different jQuery depending on screen size.. not strictly necessary in this case, but a fun exercise
     function checkSize() {
+      // Checks for a style that doesn't exist in the mobile section
       if ($(".mobile-hide").css("display") == "block") {
         console.log("resize!")
         $('.main-carousel').flickity({
