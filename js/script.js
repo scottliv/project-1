@@ -17,6 +17,14 @@ $(function () {
       }
     });
 
+    // Cart Counter
+    var counter = 0;
+    $(".add-to-cart").on('click', function(){
+      counter++;
+      $('.cart-counter').text(counter);
+      $('.cart-counter').css("display", "block");
+    });
+
     // Flickity 
     checkSize();
     // An attempt to throttle the checkSize function
