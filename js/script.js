@@ -56,7 +56,7 @@ $(function () {
     function checkSize() {
       // Checks for a style that doesn't exist in the mobile section
       if ($(".mobile-hide").css("display") == "block") {
-        console.log("resize!")
+        // console.log("resize!")
         $('.main-carousel').flickity({
           cellAlign: 'left',
           pageDots: true,
@@ -66,7 +66,7 @@ $(function () {
         });
       }
       else {
-        console.log("mobile!")
+        // console.log("mobile!")
         $('.main-carousel').flickity({
           accessibility: true,
           cellAlign: 'center',
