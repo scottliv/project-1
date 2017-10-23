@@ -32,11 +32,9 @@ $(function () {
     var checkingSize = false;
 
     $(window).resize(function(){
-      if (!checkingSize){
-        checkingSize = true;
-        checkSize();
-        checkingSize = false;
-      }
+      setTimeout(function(){
+        checkSize()
+      },100);
     });
 
     // Sign up form
