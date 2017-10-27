@@ -532,11 +532,22 @@ footer a {
 /* A class to hide content only applicable to screen readers */
 .screen-reader 
 {position:absolute;
-left:-10000px;
+clip: rect(1px, 1px, 1px, 1px);
 top:auto;
 width:1px;
 height:1px;
 overflow:hidden;}
+
+.screen-reader:focus {
+  background-color: white;
+   clip: auto !important;
+   display: block;
+   height: auto;
+   left: 5px;
+   top: 5px;
+   width: auto;
+   z-index: 10000000000; /* above all content */
+}
 
 /* Containers  */
 
