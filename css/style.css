@@ -646,10 +646,6 @@ overflow:hidden;}
     display: block;
   }
 
-  p.mobile-hide {
-     padding-left: 10px;
-  }
-
   .footer {
     text-align: left;
     display: -webkit-box;
@@ -698,7 +694,7 @@ overflow:hidden;}
   }
 
   i {
-    min-width: 50px;
+    width: 50px;
   }
 
 
