@@ -204,7 +204,7 @@ nav {
   background-position-y: center, 15px, center;
   background-repeat: no-repeat;
   background-size: cover, contain, cover;
-  height: 50vh;
+  height: 60vh;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -603,12 +603,8 @@ overflow:hidden;}
   .hero {
     background-position-y: center, 25px, center;
     margin-top: 80px;
-    background-repeat: no-repeat,
-    no-repeat,
-    repeat-x;
-    background-size: cover,
-    contain,
-    contain;
+    background-repeat: no-repeat, no-repeat, repeat-x;
+    background-size: cover, contain, cover;
   }
 
   /* SHOP */
