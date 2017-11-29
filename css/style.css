@@ -393,6 +393,10 @@ button.add-to-cart {
 
 }
 
+button.add-to-cart:hover {
+  background-color: #e05850;
+}
+
 .product-name {
   color: #e05850;
   font-family: 'playfair_display',  cursive, serif;
@@ -484,6 +488,10 @@ footer a {
 }
 .socialmedia {
   color: #fff;
+}
+
+.socialmedia:hover {
+  text-decoration: underline;
 }
 
 .mobile-hide {
