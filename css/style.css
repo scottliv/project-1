@@ -418,6 +418,7 @@ button.add-to-cart:hover {
   background-size: auto;
   background-repeat: no-repeat;
   background-position: bottom;
+  margin-bottom: 1rem;
   min-height: 300px;
   display: -webkit-box;
   display: -ms-flexbox;
