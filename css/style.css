@@ -224,7 +224,7 @@ nav {
 }
 
 .season {
-  font-family: "playfair_display";
+  font-family: "playfair_display", serif;
   font-style: normal;
   color: #fff;
   font-size: 3rem;
@@ -399,7 +399,7 @@ button.add-to-cart:hover {
 
 .product-name {
   color: #e05850;
-  font-family: 'playfair_display',  cursive, serif;
+  font-family: "playfair_display",  cursive, serif;
   font-size: 1.5rem;
   padding: 15px 0px;
 }
@@ -481,7 +481,7 @@ footer a {
 
 .footer-text p{
   padding: 5px;
-  font-family: "'playfair_display'"
+  font-family: "playfair_display", cursive, serif;
 }
 
 .light-grey{
